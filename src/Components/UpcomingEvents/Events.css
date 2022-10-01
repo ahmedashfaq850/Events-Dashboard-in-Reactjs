@@ -1,0 +1,107 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row-right-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid rgb(204, 203, 203);
+    padding: 5px 10px;
+}
+
+.grid-container{
+    margin: 15px 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.grid-item{
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    margin: 5px;
+    padding: 20px;
+}
+
+.heading{
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.tags{
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-section{
+    margin-top: 30px;
+}
+
+.button-section button{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary{
+    background: #4B01DD;
+    font-weight: bold;
+}
+
+.sec button{
+    background-color: white;
+    border: 1px solid #4B01DD;
+    color:  #4B01DD;
+    font-weight: bold;
+}
+
+.row-pag{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.row-pag p{
+    color: rgb(95, 95, 95);
+    font-weight: bold;
+}
+
+.row-pag button{
+    border: 1px solid  rgb(204, 204, 204);
+    outline: none;
+    padding: 10px 12px;
+    color:  rgb(95, 95, 95);
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
