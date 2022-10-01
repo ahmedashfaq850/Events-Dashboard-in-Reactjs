@@ -19,7 +19,7 @@ const Footer = () => {
                 <p>info@digitalcity.com</p>
             </div>
             <div className='follow'>
-                <h3>Follow Us</h3>
+                <h3 className='social'>Follow Us</h3>
                 <div className='social'>
                     <div className='cir'><BsFacebook/></div>
                     <div className='cir'><BsTwitter/></div>

@@ -83,3 +83,11 @@
     color:  rgba(109, 108, 108, 0.664);
     font-weight: bold;
 }
+
+
+
+@media (max-width: 1024px) {
+    .profileBarContainer{
+      display: none;
+    }
+  }
