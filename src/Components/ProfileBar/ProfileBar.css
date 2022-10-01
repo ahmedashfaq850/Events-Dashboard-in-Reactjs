@@ -133,6 +133,6 @@
 
   @media (max-width: 768px){
     .wrapper{
-        display: block;
+        display: flex;
     }
   }
