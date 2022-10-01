@@ -90,6 +90,7 @@
     align-items: center;
     overflow-x: scroll;
     max-height: 100px;
+    display: none;
 
 }
 
@@ -127,5 +128,11 @@
 @media (max-width: 1024px) {
     .profileBarContainer{
       display: none;
+    }
+  }
+
+  @media (max-width: 768px){
+    .wrapper{
+        display: block;
     }
   }
