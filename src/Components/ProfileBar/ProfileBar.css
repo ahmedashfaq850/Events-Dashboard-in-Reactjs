@@ -84,6 +84,44 @@
     font-weight: bold;
 }
 
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    max-height: 100px;
+
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 200px;
+    height: 45px;
+    background: red;
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.wrapper .primarybox{
+    background-color: #4B01DD;
+}
+
+.wrapper .Secondary{
+    background-color: rgb(201, 199, 199);
+    color: rgb(94, 94, 94);
+}
+
 
 
 @media (max-width: 1024px) {

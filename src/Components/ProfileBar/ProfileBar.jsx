@@ -36,6 +36,11 @@ const ProfileBar = () => {
           </div>
         </div>
       </div>
+      <div className="wrapper">
+        <div className="item primarybox">Upcoming Events (27)</div>
+        <div className="item Secondary">Current Events (5)</div>
+        <div className="item Secondary">Pas Events (2)</div>
+      </div>
     </>
   );
 };
